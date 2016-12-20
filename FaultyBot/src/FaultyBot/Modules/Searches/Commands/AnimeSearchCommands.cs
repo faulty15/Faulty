@@ -147,7 +147,7 @@ namespace FaultyBot.Modules.Searches
                 }
                 var headers = new Dictionary<string, string> {
                     {"grant_type", "client_credentials"},
-                    {"client_id", "kwoth-w0ki9"},
+                    {"client_id", "Faulty-w0ki9"},
                     {"client_secret", "Qd6j4FIAi1ZK6Pc7N7V4Z"},
                 };
                 using (var http = new HttpClient())

@@ -1795,7 +1795,7 @@
     <value>wowjoke</value>
   </data>
   <data name="wowjoke_desc" xml:space="preserve">
-    <value>Get one of Kwoth's penultimate WoW jokes.</value>
+    <value>Get one of Faulty's penultimate WoW jokes.</value>
   </data>
   <data name="wowjoke_usage" xml:space="preserve">
     <value>`{0}wowjoke`</value>

@@ -7710,7 +7710,7 @@ namespace FaultyBot.Resources {
         }
         
         /// <summary>
-        ///    Looks up a localized string similar to Get one of Kwoth&apos;s penultimate WoW jokes..
+        ///    Looks up a localized string similar to Get one of Faulty&apos;s penultimate WoW jokes..
         /// </summary>
         public static string wowjoke_desc {
             get {

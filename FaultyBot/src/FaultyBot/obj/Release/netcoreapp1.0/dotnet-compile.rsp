@@ -11,7 +11,7 @@
 --emit-entry-point:True
 --output-name:FaultyBot
 --description:General purpose Discord bot written in C#.
---copyright:Kwoth
+--copyright:Faulty
 --file-version:1.0.0.0
 --version:1.0.0.0
 --informational-version:1.0.0

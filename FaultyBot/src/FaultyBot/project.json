@@ -1,8 +1,8 @@
 {
   "version": "1.0.0-*",
   "description": "General purpose Discord bot written in C#.",
-  "authors": [ "Kwoth" ],
-  "copyright": "Kwoth",
+  "authors": [ "Faulty" ],
+  "copyright": "Faulty",
   "buildOptions": {
     "emitEntryPoint": true,
     "allowUnsafe": true,

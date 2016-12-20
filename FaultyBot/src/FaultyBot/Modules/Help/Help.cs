@@ -121,7 +121,7 @@ namespace FaultyBot.Modules.Help
         public Task Hgit(IUserMessage umsg)
         {
             var helpstr = new StringBuilder();
-            helpstr.AppendLine("You can support the project on patreon: <https://patreon.com/Faultybot> or paypal: <https://www.paypal.me/Kwoth>\n");
+            helpstr.AppendLine("You can support the project on patreon: <https://patreon.com/Faultybot> or paypal: <https://www.paypal.me/Faulty>\n");
             helpstr.AppendLine("##Table Of Contents");
             helpstr.AppendLine(string.Join("\n", FaultyBot.CommandService.Modules.Where(m => m.Name.ToLowerInvariant() != "help").OrderBy(m => m.Name).Prepend(FaultyBot.CommandService.Modules.FirstOrDefault(m=>m.Name.ToLowerInvariant()=="help")).Select(m => $"- [{m.Name}](#{m.Name.ToLowerInvariant()})")));
             helpstr.AppendLine();
