@@ -121,7 +121,7 @@ namespace FaultyBot.Modules.Help
         public Task Hgit(IUserMessage umsg)
         {
             var helpstr = new StringBuilder();
-            helpstr.AppendLine("You can support the project on patreon: <https://patreon.com/Faultybot> or paypal: <https://www.paypal.me/Faulty>\n");
+            helpstr.AppendLine("thanks");
             helpstr.AppendLine("##Table Of Contents");
             helpstr.AppendLine(string.Join("\n", FaultyBot.CommandService.Modules.Where(m => m.Name.ToLowerInvariant() != "help").OrderBy(m => m.Name).Prepend(FaultyBot.CommandService.Modules.FirstOrDefault(m=>m.Name.ToLowerInvariant()=="help")).Select(m => $"- [{m.Name}](#{m.Name.ToLowerInvariant()})")));
             helpstr.AppendLine();
@@ -166,9 +166,7 @@ namespace FaultyBot.Modules.Help
             var channel = (ITextChannel)umsg.Channel;
 
             await channel.SendMessageAsync(
-$@"You can support the FaultyBot project on patreon. <https://patreon.com/Faultybot> or
-You can send donations to `Faultydiscordbot@gmail.com`
-Don't forget to leave your discord name or id in the message.
+$@"
 
 **Thank you** ♥️").ConfigureAwait(false);
         }

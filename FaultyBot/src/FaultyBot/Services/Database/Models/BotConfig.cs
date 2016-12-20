@@ -36,10 +36,10 @@ For a specific command help, use `{1}h CommandName` (for example {1}h !!q)
 
 
 **LIST OF COMMANDS CAN BE FOUND ON THIS LINK**
-<http://Faultybot.readthedocs.io/en/latest/Commands%20List/>
+<>
 
 
-Faulty Support Server: https://discord.gg/0ehQwTK2RBjAxzEY";
+";
 
         public int MigrationVersion { get; set; }
     }
